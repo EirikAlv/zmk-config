@@ -33,15 +33,18 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
 / {
     keymap {
         compatible = "zmk,keymap";
 
         layer_0 {
             bindings = <
-&kp Q  &kp W               &kp E           &kp R               &kp T           &kp Y      &kp U                &kp I               &mt LA(LC(LG(O))) O    &kp P
-&kp A  &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LEFT_COMMAND F  &kp G           &kp J      &kp K                &kp L               &kp SEMICOLON          &kp ESCAPE
-&kp Z  &kp X               &kp C           &kp V               &kp B           &kp N      &mt RIGHT_COMMAND M  &mt LEFT_ALT COMMA  &mt RIGHT_CONTROL DOT  &kp BACKSPACE
+&kp Q  &kp W               &kp E           &kp R               &kp T           &kp Y      &kp U                &kp I               &mt LC(LG(LEFT_ALT)) O  &kp P
+&kp A  &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LEFT_COMMAND F  &kp G           &kp J      &kp K                &kp L               &kp SEMICOLON           &kp ESCAPE
+&kp Z  &kp X               &kp C           &kp V               &kp B           &kp N      &mt RIGHT_COMMAND M  &mt LEFT_ALT COMMA  &mt RIGHT_CONTROL DOT   &kp BACKSPACE
                                            &kp LSHIFT          &lt 1 ESCAPE    &kp SPACE  &lt 2 TAB
             >;
         };
