@@ -73,14 +73,14 @@
 &trans  &kp N7  &kp N8  &kp N9  &trans    &trans     &trans    &trans  &trans     &kp TAB
 &kp N0  &kp N4  &kp N5  &kp N6  &trans    &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &kp BSPC
 &trans  &kp N1  &kp N2  &kp N3  &trans    &trans     &trans    &trans  &trans     &trans
-                        &trans  &trans    &kp ENTER  &kp TAB
+                        &trans  &trans    &kp ENTER  &trans
             >;
         };
 
         right-layer {
             bindings = <
 &kp QUESTION       &kp AT           &kp HASH           &kp DOLLAR             &kp PRCNT    &kp CARET      &kp AMPERSAND    &kp ASTERISK  &kp TILDE  &trans
-&kp SINGLE_QUOTE   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &trans       &kp SLASH      &kp EXCLAMATION  &kp EQUAL     &kp COLON  &kp SEMICOLON
+&kp SINGLE_QUOTE   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &kp GRAVE    &kp SLASH      &kp EXCLAMATION  &kp EQUAL     &kp COLON  &kp SEMICOLON
 &kp DOUBLE_QUOTES  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &trans       &kp BACKSLASH  &kp UNDERSCORE   &kp MINUS     &kp PLUS   &kp PIPE
                                                        &trans                 &trans       &trans         &trans
             >;
@@ -97,9 +97,9 @@
 
         utilities_layer {
             bindings = <
-&bt BT_PRV    &bt BT_NXT    &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans        &trans        &trans  &trans  &kp U     &trans  &trans  &trans  &trans  &trans
+&bt BT_PRV    &bt BT_NXT    &trans  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F10
+&bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&trans        &trans        &trans  &trans  &kp U     &trans  &kp F1  &kp F2  &kp F3  &kp F12
                                     &trans  &trans    &trans  &trans
             >;
         };
